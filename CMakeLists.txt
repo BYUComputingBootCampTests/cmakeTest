@@ -1,1 +1,5 @@
 #Insert your code here :)
+cmake_minimum_required(VERSION 3.22)
+project(a)
+include_directories(lib)
+add_executable(perform main.c lib/strings.c harp/harp.c)
