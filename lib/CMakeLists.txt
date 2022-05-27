@@ -1,1 +1,1 @@
-#Insert your code here :)
+add_library(mylib STATIC strings.c strings.h) 
