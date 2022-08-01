@@ -1,4 +1,4 @@
 #Insert your code here :)
-add_executable(main main.c)
+add_executable(hello main.c)
 
-target_link_libraries(main PRIVATE myActionLib)
+target_link_libraries(hello PRIVATE myActionLib)
