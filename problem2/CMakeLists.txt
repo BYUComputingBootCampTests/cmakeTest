@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 project(
     hello
     VERSION 1.0
-    LANGUAGES CXX
+    LANGUAGES C
     )
     
 add_subdirectory(apps)
