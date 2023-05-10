@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libmyMessageLib.so -o libmyMessageLib.so CMakeFiles/myMessageLib.dir/message.c.o 

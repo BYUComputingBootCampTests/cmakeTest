@@ -1,0 +1,2 @@
+/usr/bin/ar qc libharp.a CMakeFiles/harp.dir/harp.c.o
+/usr/bin/ranlib libharp.a

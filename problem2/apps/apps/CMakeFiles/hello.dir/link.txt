@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/hello.dir/main.c.o -o hello  -Wl,-rpath,/home/stevehenny/cmakeTest/problem2/apps/include ../include/libmyActionLib.so -Wl,-rpath-link,/home/stevehenny/cmakeTest/problem2/apps/include 

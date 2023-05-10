@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/perform.dir/main.c.o CMakeFiles/perform.dir/harp/harp.c.o CMakeFiles/perform.dir/lib/strings.c.o -o perform 

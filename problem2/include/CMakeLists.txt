@@ -1,1 +1,5 @@
-#Insert your code here :)
+add_library(myActionLib SHARED action.c)
+add_library(myMessageLib SHARED message.c)
+target_link_libraries(myActionLib myMessageLib)
+target_include_directories(myActionLib INTERFACE ../include)
+target_include_directories(myMessageLib PRIVATE ../include)
